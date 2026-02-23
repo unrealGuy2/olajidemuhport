@@ -1,0 +1,52 @@
+.projects {
+  padding: 80px 5%;
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 3rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+
+  .card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    box-shadow: var(--glass-shadow);
+    padding: 2rem;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+      border-color: var(--accent);
+    }
+
+    h3 {
+      color: var(--text-color);
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      
+      li {
+        color: var(--text-color);
+        margin-bottom: 0.8rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        opacity: 0.9;
+      }
+    }
+  }
+}
