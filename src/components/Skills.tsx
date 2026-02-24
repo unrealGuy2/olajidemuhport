@@ -8,7 +8,7 @@ export default function Skills() {
     },
     {
       title: "Machine Learning",
-      skills: ["scikit-learn", "Hugging Face Transformers"]
+      skills: ["scikit-learn", "TensorFlow", "Hugging Face Transformers"]
     },
     {
       title: "Data & Visualization",
@@ -24,7 +24,7 @@ export default function Skills() {
     },
     {
       title: "Tools & Other",
-      skills: ["Jupyter Notebook", "Kaggle", "Google Colab", "Git", "Curriculum development", "technical instructions"]
+      skills: ["Jupyter Notebook", "Kaggle", "Google Colab", "Git", "Curriculum development"]
     }
   ];
 

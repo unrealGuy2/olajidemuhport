@@ -3,17 +3,23 @@ import styles from './Projects.module.scss';
 export default function Projects() {
   const projectList = [
     {
+      title: "Travel Agent using Gemini SDK",
+      bullets: [
+        "Developed an intelligent travel planning assistant utilizing the Gemini SDK.",
+        "Implemented automated itinerary generation and real-time travel recommendations."
+      ]
+    },
+    {
       title: "Taxi Fare Prediction Using Linear Regression",
       bullets: [
         "Built a supervised regression model for fare prediction using scikit-learn.",
-        "Conducted data cleaning, feature engineering, and model evaluation.",
-        "Visualized data trends and model performance."
+        "Conducted data cleaning, feature engineering, and model evaluation."
       ]
     },
     {
       title: "LLM Response Evaluator Design",
       bullets: [
-        "Developed an evaluation framework for large language model (LLM) outputs focusing on instruction following, groundedness, and fluency.",
+        "Developed an evaluation framework for LLM outputs focusing on instruction following and groundedness.",
         "Created custom evaluation rubrics and integrated feedback loops."
       ]
     },
@@ -22,18 +28,6 @@ export default function Projects() {
       bullets: [
         "Designed and optimized prompts using Gemini API.",
         "Implemented context shaping and dynamic instruction strategies."
-      ]
-    },
-    {
-      title: "Embeddings and Similarity Scores",
-      bullets: [
-        "Computed text embeddings and similarity metrics for semantic search tasks."
-      ]
-    },
-    {
-      title: "Function Calling with Gemini API",
-      bullets: [
-        "Enabled LLMs to execute external functions dynamically."
       ]
     },
     {
@@ -46,12 +40,6 @@ export default function Projects() {
       title: "Fine-Tuning a Custom Model",
       bullets: [
         "Fine-tuned a transformer-based language model with Hugging Face."
-      ]
-    },
-    {
-      title: "Google Search Grounding",
-      bullets: [
-        "Implemented retrieval-augmented generation (RAG) by integrating Google Search data into LLM responses."
       ]
     }
   ];

@@ -10,20 +10,20 @@
   h1 {
     font-size: 3.5rem;
     color: var(--text-color);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--accent);
     margin-bottom: 1.5rem;
+    font-weight: 500;
   }
 
-  p {
-    font-size: 1.2rem;
+  .tagline {
+    font-size: 1.5rem;
     color: var(--text-color);
-    max-width: 800px;
-    line-height: 1.8;
+    font-style: italic;
     margin-bottom: 2.5rem;
     opacity: 0.9;
   }
